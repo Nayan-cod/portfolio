@@ -1,0 +1,13 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules
+
+# Backups
+*.bak
+*.log
+
+# Personal/Sensitive
+.env

@@ -1,0 +1,28 @@
+/* Profile Photo Container */
+.blob-img-container {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.blob-img-container img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 3;
+    border: none;
+    filter: none;
+}
+
+.blob-background {
+    display: none;
+}
+
+.blob-outline {
+    display: none;
+}
